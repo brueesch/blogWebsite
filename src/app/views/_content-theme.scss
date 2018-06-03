@@ -1,0 +1,9 @@
+@import '~@angular/material/theming';
+
+@mixin bw-content-theme($theme) {
+    .bw-content {
+        .bw-content {
+            margin: 20px;
+        }
+    }
+  }

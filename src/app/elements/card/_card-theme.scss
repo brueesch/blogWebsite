@@ -1,0 +1,31 @@
+@import '~@angular/material/theming';
+
+@mixin bw-card-theme($theme) {
+  .bw-card {
+
+    &{
+      width: 480px;
+    }
+    .image {
+      width: 480px;
+
+    }
+
+    h1 {
+      font-size: 26px;
+      font-weight: bold;
+      margin-top: 10px;
+      margin-bottom: 0;
+    }
+
+    h2 {
+      font-size: 18px;
+      font-weight: normal;
+    }
+
+    p {
+      font-size: 16px;
+      color: #5d5d5d;
+    }
+  }
+}

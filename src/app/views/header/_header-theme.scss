@@ -1,0 +1,60 @@
+@import '~@angular/material/theming';
+
+@mixin bw-header-theme($theme) {
+  .bw-header {
+    .bw-header {
+      &__search-form {
+        min-width: 200px;
+        max-width: 500px;
+        width: 500px;
+      }
+      &__form-field {
+        width: 100%;
+      }
+      &__current {
+        padding-left: 5px;
+
+        mat-label {
+          margin-left: 3px;
+        }
+      }
+      &__left {
+        display: flex;
+
+        &__links {
+          margin-left: 50px;
+
+          &__button {
+            background-color: #000000;
+            border: none;
+            color: white;
+            margin: 0 15px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+          }
+        }
+      }
+      &__right {
+        display: flex;
+        align-items: center;
+
+        .bw-icon {
+          .icon {
+            font-size: 32px;
+            margin-bottom: -6px;
+          }
+        }
+      }
+    }
+    .mat-toolbar.mat-primary {
+      background: map-get(map-get($theme, background), app-bar-gradient);
+
+      .mat-toolbar-row {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}
