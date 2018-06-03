@@ -1,0 +1,15 @@
+@import '~@angular/material/theming';
+
+@mixin bw-travel-blog-theme($theme) {
+
+  .cards-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 70px;
+
+    &__card{
+      margin-bottom: 100px;
+    }
+  }
+}

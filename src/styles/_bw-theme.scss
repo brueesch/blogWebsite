@@ -1,0 +1,46 @@
+@import '~@angular/material/theming';
+@import '../app/views/content-theme';
+@import '../app/elements/card/card-theme';
+@import '../app/views/header/header-theme';
+@import '../app/app-theme';
+@import '../app/views/footer/footer-theme';
+@import '../app/views/travel-blog/travel-blog-theme';
+
+$bw-typography-config: mat-typography-config(
+  $font-family:   'Arial, Helvetica, sans-serif',
+  $headline:      mat-typography-level(34px, 40px, 400),
+  $title:         mat-typography-level(16px, 19px, 700),
+  $subheading-1:  mat-typography-level(16px, 19px, 700),
+  $subheading-2:  mat-typography-level(14px, 18px, 700)
+);
+
+@include mat-core($bw-typography-config);
+
+$bw-palette-primary: mat-palette($mat-blue);
+$bw-palette-accent: mat-palette($mat-light-blue);
+$bw-palette-warn: mat-palette($mat-orange);
+
+$bw-foreground:  map-merge($mat-light-theme-foreground, (
+));
+
+$bw-background: map-merge($mat-light-theme-background, (
+  app-bar-gradient: #000000,
+  background: #f5f5f5
+));
+
+$bw-theme: (
+  primary: $bw-palette-primary,
+  accent: $bw-palette-accent,
+  warn: $bw-palette-warn,
+  is-dark: false,
+  foreground: $bw-foreground,
+  background: $bw-background,
+);
+
+@include bw-app-theme($bw-theme);
+@include bw-content-theme($bw-theme);
+@include bw-card-theme($bw-theme);
+@include bw-header-theme($bw-theme);
+@include bw-footer-theme($bw-theme);
+@include bw-travel-blog-theme($bw-theme);
+@include angular-material-theme($bw-theme);

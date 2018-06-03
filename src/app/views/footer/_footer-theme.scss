@@ -1,0 +1,31 @@
+@import '~@angular/material/theming';
+
+@mixin bw-footer-theme($theme) {
+  $font-color: #616161;
+
+  .bw-footer {
+    .bw-footer {
+      background-color: #EEEEEE;
+      border-top: solid 1px #A09991;
+      &__lower {
+        display: flex;
+        justify-content: space-between;
+        text-align: right;
+        font-size: 20px;
+        padding: 20px;
+        color: #A09991;
+
+        a {
+          padding: 0 10px;
+
+        }
+
+        &__copyright {
+          font-size: 12px;
+          text-align: left;
+
+        }
+      }
+    }
+  }
+}
