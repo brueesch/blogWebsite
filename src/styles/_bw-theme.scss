@@ -5,6 +5,7 @@
 @import '../app/app-theme';
 @import '../app/views/footer/footer-theme';
 @import '../app/views/travel-blog/travel-blog-theme';
+@import '../app/views/blog-entry/blog-entry-theme';
 
 $bw-typography-config: mat-typography-config(
   $font-family:   'Arial, Helvetica, sans-serif',
@@ -43,4 +44,5 @@ $bw-theme: (
 @include bw-header-theme($bw-theme);
 @include bw-footer-theme($bw-theme);
 @include bw-travel-blog-theme($bw-theme);
+@include bw-blog-entry-theme($bw-theme);
 @include angular-material-theme($bw-theme);

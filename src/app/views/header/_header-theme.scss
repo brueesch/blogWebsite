@@ -21,6 +21,11 @@
       &__left {
         display: flex;
 
+        &__page-title {
+          cursor: pointer;
+          margin: 0;
+        }
+
         &__links {
           margin-left: 50px;
 
@@ -33,6 +38,7 @@
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
+            cursor: pointer;
           }
         }
       }

@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import {ContentComponent} from './views/content.component';
 import {TravelBlogComponent} from './views/travel-blog/travel-blog.component';
-//import {PortfolioComponent} from './views/portfolio/portfolio.component';
+import {BlogEntryComponent} from './views/blog-entry/blog-entry.component';
 
 @NgModule({
   imports: [RouterModule.forRoot(
@@ -12,7 +12,7 @@ import {TravelBlogComponent} from './views/travel-blog/travel-blog.component';
         path: '', component: ContentComponent,
         children: [
           {path: 'travel-blog', component: TravelBlogComponent},
-          //{path: 'portfolio', component: PortfolioComponent}
+          {path: 'blog-entry', component: BlogEntryComponent}
         ]
       },
       {path: '**', redirectTo: 'travel-blog', pathMatch: 'full'},

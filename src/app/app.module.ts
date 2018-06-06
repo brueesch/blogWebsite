@@ -4,6 +4,7 @@ import {ContentComponent} from './views/content.component';
 import {FooterComponent} from './views/footer/footer.component';
 import {HeaderComponent} from './views/header/header.component';
 import {TravelBlogComponent} from './views/travel-blog/travel-blog.component';
+import {BlogEntryComponent} from './views/blog-entry/blog-entry.component';
 
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {AppRoutingModule} from './app-routing.module';
@@ -21,7 +22,8 @@ import {NgModule} from '@angular/core';
     ContentComponent,
     FooterComponent,
     HeaderComponent,
-    TravelBlogComponent
+    TravelBlogComponent,
+    BlogEntryComponent
   ],
   imports: [
     AngularFontAwesomeModule,
