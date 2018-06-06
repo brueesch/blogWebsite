@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
+import {Router} from '@angular/router';
 
 @Component({
     selector: 'bw-card',
@@ -11,4 +12,10 @@ export class CardComponent {
     @Input() imageUrl: string;
     @Input() entryTitle: string;
     @Input() location: string;
+
+    constructor(private router: Router) {}
+
+    navigateByUrl(url: string) {
+      this.router.navigateByUrl(url);
+    }
 }

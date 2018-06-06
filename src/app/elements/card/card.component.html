@@ -1,4 +1,6 @@
-<img class="image" src={{imageUrl}} />
-<h1>{{entryTitle}}</h1>
-<h2>{{location}}</h2>
-<p><ng-content></ng-content></p>
+<div class="container" (click)="navigateByUrl('blog-view')">
+  <img class="image" src={{imageUrl}} />
+  <h1>{{entryTitle}}</h1>
+  <h2>{{location}}</h2>
+  <p><ng-content></ng-content></p>
+</div>

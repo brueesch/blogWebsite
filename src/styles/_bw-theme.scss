@@ -1,11 +1,11 @@
 @import '~@angular/material/theming';
 @import '../app/views/content-theme';
 @import '../app/elements/card/card-theme';
+@import '../app/elements/blog-entry/blog-entry-theme';
 @import '../app/views/header/header-theme';
 @import '../app/app-theme';
 @import '../app/views/footer/footer-theme';
 @import '../app/views/travel-blog/travel-blog-theme';
-@import '../app/views/blog-entry/blog-entry-theme';
 
 $bw-typography-config: mat-typography-config(
   $font-family:   'Arial, Helvetica, sans-serif',

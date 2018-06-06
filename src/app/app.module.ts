@@ -1,10 +1,11 @@
 import {AppComponent} from './app.component';
 import {CardComponent} from './elements/card/card.component';
+import {BlogEntryComponent} from './elements/blog-entry/blog-entry.component';
 import {ContentComponent} from './views/content.component';
 import {FooterComponent} from './views/footer/footer.component';
 import {HeaderComponent} from './views/header/header.component';
 import {TravelBlogComponent} from './views/travel-blog/travel-blog.component';
-import {BlogEntryComponent} from './views/blog-entry/blog-entry.component';
+import {BlogViewComponent} from './views/blog-view/blog-view.component';
 
 import {AngularFontAwesomeModule} from 'angular-font-awesome';
 import {AppRoutingModule} from './app-routing.module';
@@ -18,12 +19,13 @@ import {NgModule} from '@angular/core';
 @NgModule({
   declarations: [
     AppComponent,
+    BlogEntryComponent,
+    BlogViewComponent,
     CardComponent,
     ContentComponent,
     FooterComponent,
     HeaderComponent,
-    TravelBlogComponent,
-    BlogEntryComponent
+    TravelBlogComponent
   ],
   imports: [
     AngularFontAwesomeModule,
