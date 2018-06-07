@@ -12,7 +12,7 @@ import {BlogViewComponent} from './views/blog-view/blog-view.component';
         path: '', component: ContentComponent,
         children: [
           {path: 'travel-blog', component: TravelBlogComponent},
-          {path: 'blog-view', component: BlogViewComponent}
+          {path: 'blog-view/:blogId', component: BlogViewComponent}
         ]
       },
       {path: '**', redirectTo: 'travel-blog', pathMatch: 'full'},

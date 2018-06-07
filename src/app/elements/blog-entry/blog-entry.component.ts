@@ -16,5 +16,10 @@ export class BlogEntryComponent {
   @Input() subtitle1:string;
   @Input() subtitle2:string;
   @Input() subtitle3:string;
+  @Input() text1:string;
+  @Input() text2:string;
+  @Input() text3:string;
+  @Input() text4:string;
+  @Input() text5:string;
 
 }

@@ -8,6 +8,7 @@
     }
     .image {
       width: 480px;
+      border-radius: 30px;
 
     }
 
@@ -28,8 +29,18 @@
       color: #5d5d5d;
     }
 
+
+    .image:hover {
+      box-shadow:  6px 6px 10px 0 rgba(0,0,0,0.30);
+    }
+
     .container {
       cursor: pointer;
+      opacity:0.9;
+    }
+
+    .container:hover {
+      opacity: 1;
     }
   }
 }
