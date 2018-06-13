@@ -12,10 +12,11 @@ export class CardComponent {
     @Input() imageUrl: string;
     @Input() entryTitle: string;
     @Input() location: string;
+    @Input() postId: number;
 
     constructor(private router: Router) {}
 
-    navigateByUrl(url: string) {
-      this.router.navigateByUrl(url);
+    navigate() {
+      this.router.navigateByUrl('blog-view/' + this.postId);
     }
 }
