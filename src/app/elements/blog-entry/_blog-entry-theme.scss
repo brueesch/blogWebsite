@@ -6,6 +6,10 @@
       max-width: 1000px;
       margin: 0 auto;
 
+      img {
+        border-radius: 30px;
+      }
+
       &__image-description {
         margin-top: 10px;
         font-size: 20px;
@@ -28,6 +32,12 @@
           margin-left: 20px;
         }
       }
+
+      &__map {
+          max-width: 1000px;
+          max-height: 600px;
+          width: 100%;
+      }
     }
 
     h1 {
@@ -46,6 +56,28 @@
       font-size: 20px;
       line-height: 30px;
       margin-bottom: 30px;
+    }
+
+    @media only screen and (max-width: 750px) {
+      .container__picture {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        img {
+          width: 100%;
+          height: 100%;
+          margin-top: 6px;
+        }
+
+        &__left img {
+          margin-bottom: 20px;
+        }
+
+        &__right img {
+          margin-left: 0;
+        }
+      }
     }
 
   }
