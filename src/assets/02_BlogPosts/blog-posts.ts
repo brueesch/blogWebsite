@@ -26,7 +26,7 @@ export let blogPosts = {
     text4: 'Wer es bis zum Gipfel schafft, wird mit einem herrlichen Blick über das ganze Tal belohnt. ' +
             'Auf der einen Seite reicht der Blick bis weit über den Genfersee zu den Alpen. Auf der ' +
             'anderen Seite sieht man über das Jura Gebiet bis weit nach Frankreich. Als ich jedoch oben ' +
-            'ankam, versperrten mir die Wolken ein grosser Teil der Sicht. Allerdings wurde die Stimmung ' +
+            'ankam, versperrten mir die Wolken einen grossen Teil der Sicht. Allerdings wurde die Stimmung ' +
             'durch die Wolken positiv beeinflusst.',
     text5: 'Der Mont Tendre ist ein Berggipfel im Waadtländer Jura in der Westschweiz, etwa 15 km ' +
             'nordwestlich von Morges. Mit 1679 m ü. M. ist der Mont Tendre die höchste Erhebung im ' +
