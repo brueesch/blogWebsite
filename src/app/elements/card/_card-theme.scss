@@ -29,6 +29,7 @@
     p {
       font-size: 16px;
       color: #5d5d5d;
+      margin-bottom: 4px;
     }
 
 
@@ -43,6 +44,11 @@
 
     .container:hover {
       opacity: 0.7;
+    }
+
+    .more {
+      text-decoration: underline;
+      color: map-get(map-get($theme, default-colors), blue);
     }
   }
 }
