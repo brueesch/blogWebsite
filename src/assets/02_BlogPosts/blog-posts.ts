@@ -40,10 +40,9 @@ export let blogPosts = {
     image2: 'assets/01_BlogEntries/02_Chasseral/Chasseral1_small-5339.jpg',
     image3: 'assets/01_BlogEntries/02_Chasseral/Chasseral2_small-5370.jpg',
     subtitle1: 'Auf zum Gipfel',
-    //subtitle2: 'Ausser Atem',
     subtitle2: 'Angenehme Überraschung',
     subtitle3: 'Über den Chasseral',
-    location: 'Chasseral | Kanton ? | Schweiz',
+    location: 'Chasseral | Kanton Bern | Schweiz',
     intro: 'Es war gerade mal 4:30 als mein Alarm im Hotelzimmer in Biel ertönte. Heutiges Ziel: Der Chasseral.',
     text1: 'Es war gerade mal 4:30 als mein Alarm im Hotelzimmer in Biel ertönte. Heutiges Ziel: Der Chasseral. ' +
             'Ich fuhr von Biel aus los. Mit dem Auto fährt man ungefähr 45 Minuten bis zum Hotel Chasseral. Wie üblich ' +
