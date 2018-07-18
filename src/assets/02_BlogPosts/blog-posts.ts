@@ -31,7 +31,8 @@ export let blogPosts = {
     text5: 'Der Mont Tendre ist ein Berggipfel im Waadtländer Jura in der Westschweiz, etwa 15 km ' +
             'nordwestlich von Morges. Mit 1679 m ü. M. ist der Mont Tendre die höchste Erhebung im ' +
             'Schweizer Jura sowie eine der höchsten im gesamten Juragebirge. Einzig die Gipfel der ' +
-            'Crêt de la Neige-Kette in Frankreich überragen ihn noch um etwa 40 Meter.'
+            'Crêt de la Neige-Kette in Frankreich überragen ihn noch um etwa 40 Meter.',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13556.045855243172!2d6.301268143726534!3d46.59480486084388!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478c4db66c595df9%3A0x97762f653a9cdea0!2sMont+Tendre!5e1!3m2!1sde!2sch!4v1528322484219'
   },
   2: {
     id: 2,
@@ -68,6 +69,7 @@ export let blogPosts = {
             'gekommen und ich bin mir sicher, dass der Chasseral an diesem Tag von dutzenden Wanderern besucht wurde. Durch die gute Erschliessung ' +
             'kann der Berg mit dem Auto oder auch zu Fuss erklommen werden. Daher ein perfektes Ausflugsziel für Wanderer, aber auch Familien welche ' +
             'nicht stundenlang einen Berg besteigen möchten. Für mich war mein erstes kleines Abenteuer bereits beendet, als ich um 8 Uhr ins Bett ' +
-            'fiel, um nochmals 2 Stunden Kraft zu tanken bevor ich den restlichen Tag in Angriff nahm.'
+            'fiel, um nochmals 2 Stunden Kraft zu tanken bevor ich den restlichen Tag in Angriff nahm.',
+    mapUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10857.069897742047!2d7.050607243891029!3d47.13302561416201!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478e043ded25abd7%3A0x878b235433f6824!2sChasseral!5e0!3m2!1sde!2sch!4v1531842818082'
   }
 };

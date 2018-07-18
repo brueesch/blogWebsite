@@ -1,4 +1,5 @@
 import { Component, HostBinding, Input } from '@angular/core';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'bw-blog-entry',
@@ -21,5 +22,13 @@ export class BlogEntryComponent {
   @Input() text3: string;
   @Input() text4: string;
   @Input() text5: string;
+  @Input() mapUrl: string;
+
+  constructor(private sanitizer: DomSanitizer) {}
+
+
+  cleanMapUrl() {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(this.mapUrl);
+  }
 
 }
